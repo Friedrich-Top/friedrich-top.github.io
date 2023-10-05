@@ -1,0 +1,212 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>Guide for Kenvyra running on Cupid(xiaomi12) - Les rouages du temps pour toi s&#39;arrêtent</title><meta name="Description" content=""><meta property="og:title" content="Guide for Kenvyra running on Cupid(xiaomi12)" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-16T10:35:20+08:00" />
+<meta property="article:modified_time" content="2023-08-16T10:35:20+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Guide for Kenvyra running on Cupid(xiaomi12)"/>
+<meta name="twitter:description" content=""/>
+<meta name="application-name" content="Les rouages du temps pour toi s&#39;arrêtent">
+<meta name="apple-mobile-web-app-title" content="Les rouages du temps pour toi s&#39;arrêtent">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="icon" href="/images/Anarchy-symbol.svg.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/" /><link rel="prev" href="https://friedrich-top.github.io/first_post/" /><link rel="next" href="https://friedrich-top.github.io/wayland-strategy-customizing-on-archlinux-based-kde-plasma/" />
+<link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Guide for Kenvyra running on Cupid(xiaomi12)",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/friedrich-top.github.io\/guide-for-kenvyra-running-on-cupidxiaomi12\/"
+        },"genre": "posts","wordcount":  27 ,
+        "url": "https:\/\/friedrich-top.github.io\/guide-for-kenvyra-running-on-cupidxiaomi12\/","datePublished": "2023-08-16T10:35:20+08:00","dateModified": "2023-08-16T10:35:20+08:00","publisher": {
+            "@type": "Organization",
+            "name": "71655"},"author": {
+                "@type": "Person",
+                "name": "71655"
+            },"description": ""
+    }
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Les rouages du temps pour toi s&#39;arrêtent"><img
+        class="logo"
+        loading="lazy"
+        src="/images/Anarchy-symbol.svg.png"
+        srcset="/images/Anarchy-symbol.svg.png, /images/Anarchy-symbol.svg.png 1.5x, /images/Anarchy-symbol.svg.png 2x"
+        sizes="auto"
+        alt="/images/Anarchy-symbol.svg.png"
+        title="/images/Anarchy-symbol.svg.png" height="50"   width="50" ><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" title="Select Language" id="language-select-desktop" onchange="location = this.value;"><option value="/guide-for-kenvyra-running-on-cupidxiaomi12/" selected>English</option><option value="/zh-cn/guide-for-kenvyra-running-on-cupidxiaomi12/">汉语</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-select" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                    <select class="color-theme-select" id="theme-select-desktop" title="Switch Theme">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="black">Black</option>
+                        <option value="auto">Auto</option>
+                    </select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Les rouages du temps pour toi s&#39;arrêtent"><img
+        class="logo"
+        loading="lazy"
+        src="/images/Anarchy-symbol.svg.png"
+        srcset="/images/Anarchy-symbol.svg.png, /images/Anarchy-symbol.svg.png 1.5x, /images/Anarchy-symbol.svg.png 2x"
+        sizes="auto"
+        alt="/images/Anarchy-symbol.svg.png"
+        title="/images/Anarchy-symbol.svg.png" height="50"   width="50" ><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-select" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+                <select class="color-theme-select" id="theme-select-mobile" title="Switch Theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="black">Black</option>
+                    <option value="auto">Auto</option>
+                </select>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" title="Select Language" onchange="location = this.value;"><option value="/guide-for-kenvyra-running-on-cupidxiaomi12/" selected>English</option><option value="/zh-cn/guide-for-kenvyra-running-on-cupidxiaomi12/">汉语</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Guide for Kenvyra running on Cupid(xiaomi12)</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">71655</a>
+                </span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-16">2023-08-16</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-16">2023-08-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;27 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="/images/kenvyra_preview.png"
+        srcset="/images/kenvyra_preview.png, /images/kenvyra_preview.png 1.5x, /images/kenvyra_preview.png 2x"
+        sizes="auto"
+        alt="/images/kenvyra_preview.png"
+        title="/images/kenvyra_preview.png" height="auto"   width="auto" ></div><div class="content" id="content"><h3 id="准备工作" class="headerLink">
+    <a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-mark"></a>准备工作</h3><ul>
+<li>在个人电脑上安装 :ref:<code>adb</code></li>
+<li>解锁bootloader</li>
+</ul>
+<h3 id="在recovery模式下安装" class="headerLink">
+    <a href="#%e5%9c%a8recovery%e6%a8%a1%e5%bc%8f%e4%b8%8b%e5%ae%89%e8%a3%85" class="header-mark"></a>在recovery模式下安装</h3><ul>
+<li>在 Recovery 模式下选择 Factory Reset ，然后选择 Format data/factory reset ，此时会删除掉手机中所有数据并清理缓存</li>
+<li>返回主菜单页面</li>
+<li>旁路加载kenvyra.zip包</li>
+<li>在手机设备上选择 Apply Update，然后选择 Apply from ADB</li>
+<li>在主机端，使用以下命令sideload镜像包</li>
+</ul>
+<p><code>adb sideload Kenvyra-13.0-cupid-OFFICIAL-20230720-MICROG.zip</code></p></div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-08-16</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/first_post/" class="prev" rel="prev" title="First_post"><i class="fas fa-angle-left fa-fw"></i>First_post</a>
+            <a href="/wayland-strategy-customizing-on-archlinux-based-kde-plasma/" class="next" rel="next" title="Wayland strategy customizing on ArchLinux based KDE Plasma">Wayland strategy customizing on ArchLinux based KDE Plasma<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Main Page: <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw">wdnmd.org</a</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">71655</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"No results found","snippetLength":50,"threshold":null,"useExtendedSearch":null},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>
