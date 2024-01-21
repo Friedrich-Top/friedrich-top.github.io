@@ -13,8 +13,8 @@
 <meta property="og:url" content="https://friedrich-top.github.io/phigros-backup-using-adb/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-17T11:45:36+08:00" />
 <meta property="article:modified_time" content="2023-08-17T11:45:36+08:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Phigros backup using ADB"/>
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Phigros backup using ADB"/>
 <meta name="twitter:description" content=""/>
 <meta name="application-name" content="Les rouages du temps pour toi s&#39;arrêtent">
 <meta name="apple-mobile-web-app-title" content="Les rouages du temps pour toi s&#39;arrêtent">
@@ -31,12 +31,12 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/friedrich-top.github.io\/phigros-backup-using-adb\/"
-        },"genre": "posts","wordcount":  32 ,
+        },"genre": "posts","wordcount":  46 ,
         "url": "https:\/\/friedrich-top.github.io\/phigros-backup-using-adb\/","datePublished": "2023-08-17T11:45:36+08:00","dateModified": "2023-08-17T11:45:36+08:00","publisher": {
             "@type": "Organization",
-            "name": "71655"},"author": {
+            "name": "Okurunin"},"author": {
                 "@type": "Person",
-                "name": "71655"
+                "name": "Okurunin"
             },"description": ""
     }
     </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
@@ -142,11 +142,11 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-            <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Phigros backup using ADB</h1><div class="post-meta">
+            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Phigros backup using ADB</h1><div class="post-meta">
             <div class="post-meta-line">
-                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">71655</a>
+                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">Okurunin</a>
                 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-17">2023-08-17</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-17">2023-08-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;32 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-17">2023-08-17</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-17">2023-08-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;46 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="featured-image"><img
         
         loading="eager"
@@ -154,7 +154,30 @@
         srcset="/images/Distorted_Fate_Phigros.png, /images/Distorted_Fate_Phigros.png 1.5x, /images/Distorted_Fate_Phigros.png 2x"
         sizes="auto"
         alt="/images/Distorted_Fate_Phigros.png"
-        title="/images/Distorted_Fate_Phigros.png" height="auto"   width="auto" ></div><div class="content" id="content"><h3 id="配置adb" class="headerLink">
+        title="/images/Distorted_Fate_Phigros.png" height="auto"   width="auto" ></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#配置adb">配置adb</a></li>
+        <li><a href="#开始备份">开始备份</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition note open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-pencil-alt fa-fwnote"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        This article was last updated on <span class="timeago" datetime="2023-08-17T11:45:36" title="August 17, 2023">2023-08-17</span>, the content may be out of date.</div>
+                </div>
+            </div><h3 id="配置adb" class="headerLink">
     <a href="#%e9%85%8d%e7%bd%aeadb" class="header-mark"></a>配置adb</h3><ul>
 <li>adb包及依赖: <a href="https://developer.android.com/tools/adb" target="_blank" rel="noopener noreferrer">https://developer.android.com/tools/adb</a></li>
 </ul>
@@ -162,21 +185,41 @@
     <a href="#%e5%bc%80%e5%a7%8b%e5%a4%87%e4%bb%bd" class="header-mark"></a>开始备份</h3><ul>
 <li></li>
 </ul>
-<pre tabindex="0"><code>adb devices //查看设备，这里用查看手机连接是否被检测到了。
-//如果list of devices attached的下方还有数据，例如xxxxx device，就说明已经被检测到了
-
-adb shell pm list packages//查看设备已经安装的软件包名
-//这里出现的名字一般都会和软件名有关（或公司名，例如雷顿教授是com.level5.xxxxx这个格式），但是不一定完全包含软件名，需要仔细查看和对照
-
-
-//备份命令，该命令的参数较多。试图拷贝过apk，但是目前还没成功，估计参数设置有些问题，后面会再试试
-adb backup 参数
-//例如以下命令，复制了屁股肉的数据文件（不包括apk）到D:\gugugu.ab
-adb backup -f D:\gugugu.ab com.PigeonGames.Phigros
-
-//恢复屁股肉的备份
-adb restore D:\gugugu.ab
-</code></pre></div>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">adb devices //查看设备，这里用查看手机连接是否被检测到了。
+</span></span><span class="line"><span class="cl">//如果list of devices attached的下方还有数据，例如xxxxx device，就说明已经被检测到了
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">adb shell pm list packages//查看设备已经安装的软件包名
+</span></span><span class="line"><span class="cl">//这里出现的名字一般都会和软件名有关（或公司名，例如雷顿教授是com.level5.xxxxx这个格式），但是不一定完全包含软件名，需要仔细查看和对照
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">//备份命令，该命令的参数较多。试图拷贝过apk，但是目前还没成功，估计参数设置有些问题，后面会再试试
+</span></span><span class="line"><span class="cl">adb backup 参数
+</span></span><span class="line"><span class="cl">//例如以下命令，复制了屁股肉的数据文件（不包括apk）到D:\gugugu.ab
+</span></span><span class="line"><span class="cl">adb backup -f D:\gugugu.ab com.PigeonGames.Phigros
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">//恢复屁股肉的备份
+</span></span><span class="line"><span class="cl">adb restore D:\gugugu.ab
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -204,7 +247,7 @@ adb restore D:\gugugu.ab
 </div>
 </article></div>
         </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Main Page: <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw">wdnmd.org</a</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">71655</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line">Main Page: <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw">wdnmd.org</a</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Okurunin</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
             <div class="footer-line"></div>
             <div class="footer-line">
             </div>
@@ -215,7 +258,7 @@ adb restore D:\gugugu.ab
         </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"No results found","snippetLength":50,"threshold":null,"useExtendedSearch":null},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":100},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"No results found","snippetLength":50,"threshold":null,"useExtendedSearch":null},"twemoji":true,"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js" defer></script><script type="text/javascript" src="/js/twemoji.min.js" defer></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>

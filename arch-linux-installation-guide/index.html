@@ -13,8 +13,8 @@
 <meta property="og:url" content="https://friedrich-top.github.io/arch-linux-installation-guide/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-18T22:19:00+08:00" />
 <meta property="article:modified_time" content="2023-08-18T22:19:00+08:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Arch Linux Installation Guide"/>
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Arch Linux Installation Guide"/>
 <meta name="twitter:description" content=""/>
 <meta name="application-name" content="Les rouages du temps pour toi s&#39;arrêtent">
 <meta name="apple-mobile-web-app-title" content="Les rouages du temps pour toi s&#39;arrêtent">
@@ -31,12 +31,12 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/friedrich-top.github.io\/arch-linux-installation-guide\/"
-        },"genre": "posts","wordcount":  395 ,
+        },"genre": "posts","wordcount":  451 ,
         "url": "https:\/\/friedrich-top.github.io\/arch-linux-installation-guide\/","datePublished": "2023-08-18T22:19:00+08:00","dateModified": "2023-08-18T22:19:00+08:00","publisher": {
             "@type": "Organization",
-            "name": "71655"},"author": {
+            "name": "Okurunin"},"author": {
                 "@type": "Person",
-                "name": "71655"
+                "name": "Okurunin"
             },"description": ""
     }
     </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
@@ -142,11 +142,11 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-            <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Arch Linux Installation Guide</h1><div class="post-meta">
+            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Arch Linux Installation Guide</h1><div class="post-meta">
             <div class="post-meta-line">
-                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">71655</a>
+                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">Okurunin</a>
                 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-18">2023-08-18</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-18">2023-08-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;395 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-18">2023-08-18</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-18">2023-08-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;451 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         
         loading="eager"
@@ -154,7 +154,48 @@
         srcset="/images/Archlinux-logo-inverted-version.png, /images/Archlinux-logo-inverted-version.png 1.5x, /images/Archlinux-logo-inverted-version.png 2x"
         sizes="auto"
         alt="/images/Archlinux-logo-inverted-version.png"
-        title="/images/Archlinux-logo-inverted-version.png" height="auto"   width="auto" ></div><div class="content" id="content"><h1 id="archlinux-基础安装" class="headerLink">
+        title="/images/Archlinux-logo-inverted-version.png" height="auto"   width="auto" ></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#-i-use-arch-btw">⛵ I use Arch, btw</a></li>
+      </ul>
+    </li>
+    <li><a href="#0-进入安装环境">0. 进入安装环境</a></li>
+    <li><a href="#1-连接网络">1. 连接网络</a>
+      <ul>
+        <li><a href="#若使用无线连接">若使用<strong>无线连接</strong></a></li>
+        <li><a href="#若使用有线连接">若使用<strong>有线连接</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#2-更新系统时钟">2. 更新系统时钟</a></li>
+    <li><a href="#3-更换国内软件仓库镜像源">3. 更换国内软件仓库镜像源</a></li>
+    <li><a href="#4-分区和格式化使用-ext4-文件系统">4. 分区和格式化（使用 ext4 文件系统）</a></li>
+    <li><a href="#5-挂载">5. 挂载</a></li>
+    <li><a href="#6-安装系统">6. 安装系统</a></li>
+    <li><a href="#7-生成-fstab-文件">7. 生成 fstab 文件</a></li>
+    <li><a href="#8-change-root">8. change root</a></li>
+    <li><a href="#9-设置主机名与时区">9. 设置主机名与时区</a></li>
+    <li><a href="#10-设置-locale">10. 设置 Locale</a></li>
+    <li><a href="#11-安装微码">11. 安装微码</a></li>
+    <li><a href="#12-安装引导程序">12. 安装引导程序</a></li>
+    <li><a href="#13-完成安装">13. 完成安装</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition note open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-pencil-alt fa-fwnote"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        This article was last updated on <span class="timeago" datetime="2023-08-18T22:19:00" title="August 18, 2023">2023-08-18</span>, the content may be out of date.</div>
+                </div>
+            </div><h1 id="archlinux-基础安装" class="headerLink">
     <a href="#archlinux-%e5%9f%ba%e7%a1%80%e5%ae%89%e8%a3%85" class="header-mark"></a>archlinux 基础安装</h1><blockquote>
 <h3 id="-i-use-arch-btw" class="headerLink">
     <a href="#-i-use-arch-btw" class="header-mark"></a>⛵ I use Arch, btw</h3><p>开始正式安装 archlinux 前，请先仔细阅读章节 <a href="pre-install.md" rel="">安装前的准备</a>。如果对本节的步骤不理解或者有疑问，请阅读下一节 <a href="basic-install-detail.md" rel="">基础安装详解</a></p>
@@ -194,22 +235,42 @@
 <p>:::</p>
 <h3 id="若使用无线连接" class="headerLink">
     <a href="#%e8%8b%a5%e4%bd%bf%e7%94%a8%e6%97%a0%e7%ba%bf%e8%bf%9e%e6%8e%a5" class="header-mark"></a>若使用<strong>无线连接</strong></h3><p>使用 <code>iwctl</code> 进行连接：</p>
-<pre tabindex="0"><code>iwctl # 进入交互式命令行
-device list # 列出无线网卡设备名，比如无线网卡看到叫 wlan0
-station wlan0 scan # 扫描网络
-station wlan0 get-networks # 列出所有 wifi 网络
-station wlan0 connect wifi-name # 进行连接，注意这里无法输入中文。回车后输入密码即可
-exit # 连接成功后退出
-</code></pre><p>:::</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">iwctl # 进入交互式命令行
+</span></span><span class="line"><span class="cl">device list # 列出无线网卡设备名，比如无线网卡看到叫 wlan0
+</span></span><span class="line"><span class="cl">station wlan0 scan # 扫描网络
+</span></span><span class="line"><span class="cl">station wlan0 get-networks # 列出所有 wifi 网络
+</span></span><span class="line"><span class="cl">station wlan0 connect wifi-name # 进行连接，注意这里无法输入中文。回车后输入密码即可
+</span></span><span class="line"><span class="cl">exit # 连接成功后退出
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>:::</p>
 <h3 id="若使用有线连接" class="headerLink">
     <a href="#%e8%8b%a5%e4%bd%bf%e7%94%a8%e6%9c%89%e7%ba%bf%e8%bf%9e%e6%8e%a5" class="header-mark"></a>若使用<strong>有线连接</strong></h3><p>正常来说，只要插上一个已经联网的路由器分出的网线（DHCP），直接就能联网。</p>
 <p>可以等待几秒等网络建立连接后再进行下一步测试网络的操作。</p>
 <p>若笔记本没有网线接口请使用带网线接口的扩展坞。</p>
 <h2 id="2-更新系统时钟" class="headerLink">
     <a href="#2-%e6%9b%b4%e6%96%b0%e7%b3%bb%e7%bb%9f%e6%97%b6%e9%92%9f" class="header-mark"></a>2. 更新系统时钟</h2><p>使用 <code>timedatectl</code> 确保系统时间是准确的。</p>
-<pre tabindex="0"><code>timedatectl set-ntp true # 将系统时间与网络时间进行同步
-timedatectl status # 检查服务状态
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_time.png" title="time" data-thumbnail="/guide/rookie/basic-install_time.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">timedatectl set-ntp true # 将系统时间与网络时间进行同步
+</span></span><span class="line"><span class="cl">timedatectl status # 检查服务状态
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_time.png" title="time" data-thumbnail="/guide/rookie/basic-install_time.png">
         <img
             
             loading="lazy"
@@ -220,12 +281,27 @@ timedatectl status # 检查服务状态
     </a></figure></p>
 <h2 id="3-更换国内软件仓库镜像源" class="headerLink">
     <a href="#3-%e6%9b%b4%e6%8d%a2%e5%9b%bd%e5%86%85%e8%bd%af%e4%bb%b6%e4%bb%93%e5%ba%93%e9%95%9c%e5%83%8f%e6%ba%90" class="header-mark"></a>3. 更换国内软件仓库镜像源</h2><p>使用 <code>vim</code> 编辑器修改 <code>/etc/pacman.d/mirrorlist</code> 文件。将 <code>pacman</code> 软件仓库源更换为国内软件仓库镜像源：</p>
-<pre tabindex="0"><code>vim /etc/pacman.d/mirrorlist
-</code></pre><p>:::</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/pacman.d/mirrorlist
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>:::</p>
 <p>放在最上面的是会使用的软件仓库镜像源，推荐的镜像源如下：</p>
-<pre tabindex="0"><code>Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch # 清华大学开源软件镜像站
-Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch # 中国科学技术大学开源镜像站
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_mirrorlist-1.png" title="mirrorlist-1" data-thumbnail="/guide/rookie/basic-install_mirrorlist-1.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch # 清华大学开源软件镜像站
+</span></span><span class="line"><span class="cl">Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch # 中国科学技术大学开源镜像站
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_mirrorlist-1.png" title="mirrorlist-1" data-thumbnail="/guide/rookie/basic-install_mirrorlist-1.png">
         <img
             
             loading="lazy"
@@ -241,8 +317,15 @@ Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch # 中国科学技�
 <p>:::</p>
 <h2 id="4-分区和格式化使用-ext4-文件系统" class="headerLink">
     <a href="#4-%e5%88%86%e5%8c%ba%e5%92%8c%e6%a0%bc%e5%bc%8f%e5%8c%96%e4%bd%bf%e7%94%a8-ext4-%e6%96%87%e4%bb%b6%e7%b3%bb%e7%bb%9f" class="header-mark"></a>4. 分区和格式化（使用 ext4 文件系统）</h2><p>通过 <code>lsblk</code> 命令，区分要安装 archlinux 的磁盘（通过观察磁盘的大小、已存在的分区情况等判断）并显示当前磁盘的分区情况：</p>
-<pre tabindex="0"><code>lsblk -l# 显示当前分区情况
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_partition-1.png" title="partition-1" data-thumbnail="/guide/rookie/basic-install_partition-1.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">lsblk -l# 显示当前分区情况
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_partition-1.png" title="partition-1" data-thumbnail="/guide/rookie/basic-install_partition-1.png">
         <img
             
             loading="lazy"
@@ -252,26 +335,73 @@ Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch # 中国科学技�
             alt="partition-1" height="849"  width="1026" >
     </a></figure></p>
 <p>进入预装系统的指定硬盘</p>
-<pre tabindex="0"><code>fdisk /dev/nvme0nX
-</code></pre><p>按步骤提示新建分区</p>
-<pre tabindex="0"><code>n
-(defualt)
-(defualt)
-(defualt)
-w
-</code></pre><p>确认新建分区及其ID</p>
-<pre tabindex="0"><code>fdisk -l
-</code></pre><p>格式化新建分区(ext4)</p>
-<pre tabindex="0"><code>mkfs.ext4 /dev/nvme0nXpX
-</code></pre><h2 id="5-挂载" class="headerLink">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fdisk /dev/nvme0nX
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>按步骤提示新建分区</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">n
+</span></span><span class="line"><span class="cl">(defualt)
+</span></span><span class="line"><span class="cl">(defualt)
+</span></span><span class="line"><span class="cl">(defualt)
+</span></span><span class="line"><span class="cl">w
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>确认新建分区及其ID</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fdisk -l
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>格式化新建分区(ext4)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkfs.ext4 /dev/nvme0nXpX
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="5-挂载" class="headerLink">
     <a href="#5-%e6%8c%82%e8%bd%bd" class="header-mark"></a>5. 挂载</h2><p>在挂载时，挂载是有顺序的，需要从根目录开始挂载。使用如下命令挂载子卷：</p>
 <p>::: code-group</p>
 <p>挂载主分区</p>
-<pre tabindex="0"><code>mount /dev/nvme0nXpX /mnt
-</code></pre><p>挂载引导分区(EFI)</p>
-<pre tabindex="0"><code>mkdir /mnt/boot
-mount /dev/nvme0n1p1 /mnt/boot
-</code></pre><p>:::</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mount /dev/nvme0nXpX /mnt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>挂载引导分区(EFI)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mkdir /mnt/boot
+</span></span><span class="line"><span class="cl">mount /dev/nvme0n1p1 /mnt/boot
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>:::</p>
 <p><figure><a class="lightgallery" href="/guide/rookie/basic-install_mount-1.png" title="mount_step-1" data-thumbnail="/guide/rookie/basic-install_mount-1.png">
         <img
             
@@ -292,8 +422,15 @@ mount /dev/nvme0n1p1 /mnt/boot
     </a></figure></p>
 <h2 id="6-安装系统" class="headerLink">
     <a href="#6-%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f" class="header-mark"></a>6. 安装系统</h2><p>通过如下命令使用 <code>pacstrap</code> 脚本安装基础包：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pacstrap /mnt base base-devel linux linux-firmware
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacstrap /mnt base base-devel linux linux-firmware
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>📑 命令参数说明：</p>
 <ul>
 <li><code>base-devel</code> —— <code>base-devel</code> 在 <code>AUR</code> 包的安装过程中是必须用到的</li>
@@ -310,10 +447,24 @@ mount /dev/nvme0n1p1 /mnt/boot
             alt="pacstrap_step-1" height="849"  width="1026" >
     </a></figure></p>
 <p>如果提示 GPG 证书错误，可能是因为使用的不是最新的镜像文件，可以通过更新 <code>archlinux-keyring</code> 解决此问题</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pacman -S archlinux-keyring
-</span></span></code></pre></div><p>通过如下命令使用 <code>pacstrap</code> 脚本安装其它必要的功能性软件：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pacstrap /mnt networkmanager dhcpcd wpa_supplicant netctl vim sudo zsh zsh-completions
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacman -S archlinux-keyring
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>通过如下命令使用 <code>pacstrap</code> 脚本安装其它必要的功能性软件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pacstrap /mnt networkmanager dhcpcd wpa_supplicant netctl vim sudo zsh zsh-completions
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>📑 命令参数说明：</p>
 <ul>
 <li><code>zsh</code> —— <code>zsh-completions</code> 如果你是 bash 的爱好者，请把这两个包换成<code>bash-completion</code></li>
@@ -332,10 +483,24 @@ mount /dev/nvme0n1p1 /mnt/boot
 <p>经过一系列安装时提示信息的刷屏，这些包就安装好了。</p>
 <h2 id="7-生成-fstab-文件" class="headerLink">
     <a href="#7-%e7%94%9f%e6%88%90-fstab-%e6%96%87%e4%bb%b6" class="header-mark"></a>7. 生成 fstab 文件</h2><p><code>fstab</code> 用来定义磁盘分区。它是 Linux 系统中重要的文件之一。使用 <code>genfstab</code> 自动根据当前挂载情况生成并写入 <code>fstab</code> 文件：</p>
-<pre tabindex="0"><code>genfstab -U /mnt &gt; /mnt/etc/fstab
-</code></pre><p>复查一下 <code>/mnt/etc/fstab</code> 确保没有错误：</p>
-<pre tabindex="0"><code>cat /mnt/etc/fstab
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_fstab.png" title="fstab" data-thumbnail="/guide/rookie/basic-install_fstab.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">genfstab -U /mnt &gt; /mnt/etc/fstab
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>复查一下 <code>/mnt/etc/fstab</code> 确保没有错误：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cat /mnt/etc/fstab
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_fstab.png" title="fstab" data-thumbnail="/guide/rookie/basic-install_fstab.png">
         <img
             
             loading="lazy"
@@ -346,8 +511,15 @@ mount /dev/nvme0n1p1 /mnt/boot
     </a></figure></p>
 <h2 id="8-change-root" class="headerLink">
     <a href="#8-change-root" class="header-mark"></a>8. change root</h2><p>使用以下命令把系统环境切换到新系统下：</p>
-<pre tabindex="0"><code>arch-chroot /mnt
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_chroot.png" title="arch-chroot" data-thumbnail="/guide/rookie/basic-install_chroot.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">arch-chroot /mnt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_chroot.png" title="arch-chroot" data-thumbnail="/guide/rookie/basic-install_chroot.png">
         <img
             
             loading="lazy"
@@ -359,8 +531,15 @@ mount /dev/nvme0n1p1 /mnt/boot
 <p>此时，原来安装盘下的 <code>/mnt</code> 目录就变成了新系统的 <code>/</code> 目录。同时，可以发现命令行的提示符颜色和样式也发生了改变。</p>
 <h2 id="9-设置主机名与时区" class="headerLink">
     <a href="#9-%e8%ae%be%e7%bd%ae%e4%b8%bb%e6%9c%ba%e5%90%8d%e4%b8%8e%e6%97%b6%e5%8c%ba" class="header-mark"></a>9. 设置主机名与时区</h2><p>在 <code>/etc/hostname</code> 设置主机名：</p>
-<pre tabindex="0"><code>vim /etc/hostname
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_set-name-and-timezone-1.png" title="set-name-and-timezone_step-1" data-thumbnail="/guide/rookie/basic-install_set-name-and-timezone-1.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/hostname
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_set-name-and-timezone-1.png" title="set-name-and-timezone_step-1" data-thumbnail="/guide/rookie/basic-install_set-name-and-timezone-1.png">
         <img
             
             loading="lazy"
@@ -374,12 +553,28 @@ mount /dev/nvme0n1p1 /mnt/boot
 <p>主机名不要包含特殊字符以及空格。</p>
 <p>:::</p>
 <p>在 <code>/etc/hosts</code> 设置与其匹配的条目：</p>
-<pre tabindex="0"><code>vim /etc/hosts
-</code></pre><p>加入如下内容：</p>
-<pre tabindex="0"><code>127.0.0.1   localhost
-::1         localhost
-127.0.1.1   arch.localdomain arch
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_set-name-and-timezone-2.png" title="set-name-and-timezone_step-2" data-thumbnail="/guide/rookie/basic-install_set-name-and-timezone-2.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/hosts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>加入如下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">127.0.0.1   localhost
+</span></span><span class="line"><span class="cl">::1         localhost
+</span></span><span class="line"><span class="cl">127.0.1.1   arch.localdomain arch
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_set-name-and-timezone-2.png" title="set-name-and-timezone_step-2" data-thumbnail="/guide/rookie/basic-install_set-name-and-timezone-2.png">
         <img
             
             loading="lazy"
@@ -392,8 +587,15 @@ mount /dev/nvme0n1p1 /mnt/boot
 <p>你可以使用 <code>Tab</code> 对齐。</p>
 <p>:::</p>
 <p>设置时区，在 <code>/etc/localtime</code> 下用 <code>/usr</code> 中合适的时区创建符号链接：</p>
-<pre tabindex="0"><code>ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_set-name-and-timezone-3.png" title="set-name-and-timezone_step-3" data-thumbnail="/guide/rookie/basic-install_set-name-and-timezone-3.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_set-name-and-timezone-3.png" title="set-name-and-timezone_step-3" data-thumbnail="/guide/rookie/basic-install_set-name-and-timezone-3.png">
         <img
             
             loading="lazy"
@@ -403,13 +605,27 @@ mount /dev/nvme0n1p1 /mnt/boot
             alt="set-name-and-timezone_step-3" height="850"  width="1026" >
     </a></figure></p>
 <p>使用如下命令将系统时间同步到硬件时间：</p>
-<pre tabindex="0"><code>hwclock --systohc
-</code></pre><p>:::</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hwclock --systohc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>:::</p>
 <h2 id="10-设置-locale" class="headerLink">
     <a href="#10-%e8%ae%be%e7%bd%ae-locale" class="header-mark"></a>10. 设置 Locale</h2><p><code>Locale</code> 决定了软件使用的语言、书写习惯和字符集。</p>
 <p>编辑 <code>/etc/locale.gen</code>，去掉 <code>en_US.UTF-8 UTF-8</code> 以及 <code>zh_CN.UTF-8 UTF-8</code> <code>zh_TW.UTF-8 UTF-8</code> <code>zh_HK.UTF-8 UTF-8</code> 行前的注释符号（<code>#</code>）：</p>
-<pre tabindex="0"><code>vim /etc/locale.gen
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_locale-1.png" title="locale_step-1" data-thumbnail="/guide/rookie/basic-install_locale-1.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/locale.gen
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_locale-1.png" title="locale_step-1" data-thumbnail="/guide/rookie/basic-install_locale-1.png">
         <img
             
             loading="lazy"
@@ -429,8 +645,15 @@ mount /dev/nvme0n1p1 /mnt/boot
     </a></figure></p>
 <p>:::</p>
 <p>使用如下命令生成 <code>locale</code>：</p>
-<pre tabindex="0"><code>locale-gen
-</code></pre><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_locale-3.png" title="locale_step-3" data-thumbnail="/guide/rookie/basic-install_locale-3.png">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">locale-gen
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/guide/rookie/basic-install_locale-3.png" title="locale_step-3" data-thumbnail="/guide/rookie/basic-install_locale-3.png">
         <img
             
             loading="lazy"
@@ -440,35 +663,101 @@ mount /dev/nvme0n1p1 /mnt/boot
             alt="locale_step-3" height="850"  width="1026" >
     </a></figure></p>
 <p>向 <code>/etc/locale.conf</code> 输入内容：</p>
-<pre tabindex="0"><code>echo &#39;LANG=en_US.UTF-8&#39;  &gt; /etc/locale.conf
-</code></pre><p>:::</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">echo &#39;LANG=en_US.UTF-8&#39;  &gt; /etc/locale.conf
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>:::</p>
 <h2 id="11-安装微码" class="headerLink">
     <a href="#11-%e5%ae%89%e8%a3%85%e5%be%ae%e7%a0%81" class="header-mark"></a>11. 安装微码</h2><p>通过以下命令安装对应芯片制造商的微码：</p>
-<pre tabindex="0"><code>pacman -S intel-ucode # Intel
-pacman -S amd-ucode # AMD
-</code></pre><h2 id="12-安装引导程序" class="headerLink">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman -S intel-ucode # Intel
+</span></span><span class="line"><span class="cl">pacman -S amd-ucode # AMD
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="12-安装引导程序" class="headerLink">
     <a href="#12-%e5%ae%89%e8%a3%85%e5%bc%95%e5%af%bc%e7%a8%8b%e5%ba%8f" class="header-mark"></a>12. 安装引导程序</h2><p>安装相应的包：</p>
-<pre tabindex="0"><code>pacman -S grub efibootmgr os-prober
-</code></pre><p>安装 GRUB 到 EFI 分区：</p>
-<pre tabindex="0"><code>grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=ARCH
-</code></pre><p>使用 <code>vim</code> 编辑 <code>/etc/default/grub</code> 文件：</p>
-<pre tabindex="0"><code>vim /etc/default/grub
-</code></pre><pre tabindex="0"><code># GRUB boot loader configuration
-
-GRUB_DEFAULT=0
-GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR=&#34;Arch&#34;
-GRUB_CMDLINE_LINUX_DEFAULT=&#34;loglevel=5 nowatchdog&#34;
-GRUB_CMDLINE_LINUX=&#34;&#34;
-GRUB_DISABLE_OS_PROBER=false
-</code></pre><p>生成 <code>GRUB</code> 所需的配置文件：</p>
-<pre tabindex="0"><code>grub-mkconfig -o /boot/grub/grub.cfg
-</code></pre><h2 id="13-完成安装" class="headerLink">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman -S grub efibootmgr os-prober
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装 GRUB 到 EFI 分区：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">grub</span><span class="o">-</span><span class="n">install</span> <span class="o">--</span><span class="n">target</span><span class="o">=</span><span class="n">x86_64</span><span class="o">-</span><span class="n">efi</span> <span class="o">--</span><span class="n">efi</span><span class="o">-</span><span class="n">directory</span><span class="o">=/</span><span class="n">boot</span> <span class="o">--</span><span class="n">bootloader</span><span class="o">-</span><span class="n">id</span><span class="o">=</span><span class="n">ARCH</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用 <code>vim</code> 编辑 <code>/etc/default/grub</code> 文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/default/grub
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="c1"># GRUB boot loader configuration</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">GRUB_DEFAULT</span><span class="o">=</span><span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="n">GRUB_TIMEOUT</span><span class="o">=</span><span class="mi">5</span>
+</span></span><span class="line"><span class="cl"><span class="n">GRUB_DISTRIBUTOR</span><span class="o">=</span><span class="s2">&#34;Arch&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">GRUB_CMDLINE_LINUX_DEFAULT</span><span class="o">=</span><span class="s2">&#34;loglevel=5 nowatchdog&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">GRUB_CMDLINE_LINUX</span><span class="o">=</span><span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">GRUB_DISABLE_OS_PROBER</span><span class="o">=</span><span class="bp">false</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>生成 <code>GRUB</code> 所需的配置文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="13-完成安装" class="headerLink">
     <a href="#13-%e5%ae%8c%e6%88%90%e5%ae%89%e8%a3%85" class="header-mark"></a>13. 完成安装</h2><p>输入以下命令：</p>
-<pre tabindex="0"><code>exit # 退回安装环境
-umount -R /mnt # 卸载新分区
-reboot # 重启
-</code></pre></div>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">exit # 退回安装环境
+</span></span><span class="line"><span class="cl">umount -R /mnt # 卸载新分区
+</span></span><span class="line"><span class="cl">reboot # 重启
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -496,7 +785,7 @@ reboot # 重启
 </div>
 </article></div>
         </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Main Page: <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw">wdnmd.org</a</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">71655</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line">Main Page: <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU&pp=ygUVbmV2ZXIgZ29ubmEgZ2l2ZSB1IHVw">wdnmd.org</a</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Okurunin</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
             <div class="footer-line"></div>
             <div class="footer-line">
             </div>
@@ -507,7 +796,7 @@ reboot # 重启
         </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"No results found","snippetLength":50,"threshold":null,"useExtendedSearch":null},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":100},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"No results found","snippetLength":50,"threshold":null,"useExtendedSearch":null},"twemoji":true,"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js" defer></script><script type="text/javascript" src="/js/twemoji.min.js" defer></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>

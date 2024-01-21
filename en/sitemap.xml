@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://friedrich-top.github.io/about/</loc><lastmod>2024-01-20T11:45:14&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/</loc><lastmod>2023-10-04T22:13:12&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -113,7 +114,6 @@
                     hreflang="en"
                     href="https://friedrich-top.github.io/ideology_map/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
