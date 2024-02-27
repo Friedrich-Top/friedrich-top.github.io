@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</title>
+        <title>Tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</title>
         <link>https://friedrich-top.github.io/tags/tunnel/</link>
-        <description>tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</description>
+        <description>Tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Aug 2023 12:05:37 &#43;0800</lastBuildDate><atom:link href="https://friedrich-top.github.io/tags/tunnel/" rel="self" type="application/rss+xml" /><item>
     <title>Building clash service and setting startup</title>
     <link>https://friedrich-top.github.io/building-clash-service-and-setting-startup/</link>
@@ -11,6 +11,9 @@
     </author><guid>https://friedrich-top.github.io/building-clash-service-and-setting-startup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="images/clash.png" referrerpolicy="no-referrer">
-            </div>]]></description>
+            </div>特征 具有身份验证支持的本地 HTTP/HTTPS/SOCKS 服务器 Shadowsocks(R)、VMess、Trojan、Snell、SOCKS5、HTTP(S) 出站支持 内置假 IP DNS 服务器，旨在最大限度地减少 DNS 污染攻击的影响。支持 DoH/DoT 上游。 基于域、GEOIP、IP-CIDR 或进程名称的规则将数据包路由到不同的目的地 代理组允许用户实施强大的规则。支持自动回退、负载均衡或基于关闭延迟自动选择代理 远程提供商，允许用户远程获取代理列表而不是在配置中硬编码 透明代理：使用自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP 通过全面的 HTTP RESTful API 控制器进行热重载 开始You can either grab the pre-built binaries of Clash from https://github.com/Dreamacro/clash/releases or build locally.
+Clash requires Golang 1.19 or a higher version.
+1 $ go install github.com/Dreamacro/clash@latest The binary is built under $GOPATH/bin
+1 $ clash -v 将 Clash 作为服务运行Clash 应该在后台运行，目前还没有办法用 Golang 优雅地实现守护进程。我们可以使用第三方工具守护 Clash。]]></description>
 </item></channel>
 </rss>

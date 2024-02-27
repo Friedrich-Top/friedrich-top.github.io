@@ -13,7 +13,7 @@
     </author><guid>https://friedrich-top.github.io/zh-cn/arch-linux-installation-guide/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/Archlinux-logo-inverted-version.png" referrerpolicy="no-referrer">
-            </div>]]></description>
+            </div>安装前的准备 🧭 凡事预则立，不预则废这一章开始，我们正式开始安装 archlinux。但是我们首先要做一些准备工作。 ::: tip ℹ️ 提示 由于当前 UEFI 已普及]]></description>
 </item><item>
     <title>DLC/extension crack module for Paradox games on Linux distros when Steam Online Check is off</title>
     <link>https://friedrich-top.github.io/zh-cn/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/</link>
@@ -40,7 +40,7 @@
     </author><guid>https://friedrich-top.github.io/zh-cn/building-clash-service-and-setting-startup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://blog.cdn.scshark.com/scshark/2023-03-07/16781830461703.jpg" referrerpolicy="no-referrer">
-            </div>]]></description>
+            </div>特征 具有身份验证支持的本地 HTTP/HTTPS/SOCKS 服务器 Shadowsocks(R)、VMess、Trojan、Snell、SOCKS5、HTTP(S) 出站支持 内]]></description>
 </item><item>
     <title>Wayland strategy customizing on ArchLinux based KDE Plasma</title>
     <link>https://friedrich-top.github.io/zh-cn/wayland-strategy-customizing-on-archlinux-based-kde-plasma/</link>
@@ -58,7 +58,7 @@
     </author><guid>https://friedrich-top.github.io/zh-cn/guide-for-kenvyra-running-on-cupidxiaomi12/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://kenvyra.xyz/images/preview.png" referrerpolicy="no-referrer">
-            </div>]]></description>
+            </div>准备工作 在个人电脑上安装 :ref:adb 解锁bootloader 在recovery模式下安装 在 Recovery 模式下选择 Factory Reset ，然后选择 Format data/factory reset ，此时会删除掉手机中所有数据]]></description>
 </item><item>
     <title>First_post</title>
     <link>https://friedrich-top.github.io/zh-cn/first_post/</link>
