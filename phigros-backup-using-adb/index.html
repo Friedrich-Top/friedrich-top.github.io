@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
     <title>Phigros backup using ADB - Les rouages du temps pour toi s&#39;arrêtent</title><meta name="Description" content=""><meta property="og:title" content="Phigros backup using ADB" />
-<meta property="og:description" content="配置adb adb包及依赖: https://developer.android.com/tools/adb 开始备份 1 2 3 4 5 6 7 8 9 10 11 12 13 14 adb devices //查看设备，这里用查看手机连接是否被检测到了。 //如果list of devices attached的下方还有数据，例如xxxxx device，就说明已经被检测到了 adb shell pm list packages//查看设备已经安装的软件包名 //这里出现的名字一般都会和软件名有关（或公司名，例如雷顿教授是com.level5.xxxxx这个格式），但是不一定完全包含软件名，需要仔细查看和对照 //备份命令，该命令的参数较多。试图拷贝过apk，但是目前还没成功，估计参数设置有些问题，后面会再试试 adb backup 参数 //例如以下命令，复制了屁股肉的数据文件（不包括apk）到D:\gugugu.ab adb backup -f D:\gugugu.ab com.PigeonGames.Phigros //恢复屁股肉的备份 adb restore D:\gugugu.ab " />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://friedrich-top.github.io/phigros-backup-using-adb/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-17T11:45:36+08:00" />
 <meta property="article:modified_time" content="2023-08-17T11:45:36+08:00" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Phigros backup using ADB"/>
-<meta name="twitter:description" content="配置adb adb包及依赖: https://developer.android.com/tools/adb 开始备份 1 2 3 4 5 6 7 8 9 10 11 12 13 14 adb devices //查看设备，这里用查看手机连接是否被检测到了。 //如果list of devices attached的下方还有数据，例如xxxxx device，就说明已经被检测到了 adb shell pm list packages//查看设备已经安装的软件包名 //这里出现的名字一般都会和软件名有关（或公司名，例如雷顿教授是com.level5.xxxxx这个格式），但是不一定完全包含软件名，需要仔细查看和对照 //备份命令，该命令的参数较多。试图拷贝过apk，但是目前还没成功，估计参数设置有些问题，后面会再试试 adb backup 参数 //例如以下命令，复制了屁股肉的数据文件（不包括apk）到D:\gugugu.ab adb backup -f D:\gugugu.ab com.PigeonGames.Phigros //恢复屁股肉的备份 adb restore D:\gugugu.ab "/>
+<meta name="twitter:description" content=""/>
 <meta name="application-name" content="Les rouages du temps pour toi s&#39;arrêtent">
 <meta name="apple-mobile-web-app-title" content="Les rouages du temps pour toi s&#39;arrêtent">
 

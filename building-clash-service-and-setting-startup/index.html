@@ -8,20 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
     <title>Building clash service and setting startup - Les rouages du temps pour toi s&#39;arrêtent</title><meta name="Description" content=""><meta property="og:title" content="Building clash service and setting startup" />
-<meta property="og:description" content="特征 具有身份验证支持的本地 HTTP/HTTPS/SOCKS 服务器 Shadowsocks(R)、VMess、Trojan、Snell、SOCKS5、HTTP(S) 出站支持 内置假 IP DNS 服务器，旨在最大限度地减少 DNS 污染攻击的影响。支持 DoH/DoT 上游。 基于域、GEOIP、IP-CIDR 或进程名称的规则将数据包路由到不同的目的地 代理组允许用户实施强大的规则。支持自动回退、负载均衡或基于关闭延迟自动选择代理 远程提供商，允许用户远程获取代理列表而不是在配置中硬编码 透明代理：使用自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP 通过全面的 HTTP RESTful API 控制器进行热重载 开始You can either grab the pre-built binaries of Clash from https://github.com/Dreamacro/clash/releases or build locally.
-Clash requires Golang 1.19 or a higher version.
-1 $ go install github.com/Dreamacro/clash@latest The binary is built under $GOPATH/bin
-1 $ clash -v 将 Clash 作为服务运行Clash 应该在后台运行，目前还没有办法用 Golang 优雅地实现守护进程。我们可以使用第三方工具守护 Clash。" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://friedrich-top.github.io/building-clash-service-and-setting-startup/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-16T12:05:37+08:00" />
 <meta property="article:modified_time" content="2023-08-16T12:05:37+08:00" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Building clash service and setting startup"/>
-<meta name="twitter:description" content="特征 具有身份验证支持的本地 HTTP/HTTPS/SOCKS 服务器 Shadowsocks(R)、VMess、Trojan、Snell、SOCKS5、HTTP(S) 出站支持 内置假 IP DNS 服务器，旨在最大限度地减少 DNS 污染攻击的影响。支持 DoH/DoT 上游。 基于域、GEOIP、IP-CIDR 或进程名称的规则将数据包路由到不同的目的地 代理组允许用户实施强大的规则。支持自动回退、负载均衡或基于关闭延迟自动选择代理 远程提供商，允许用户远程获取代理列表而不是在配置中硬编码 透明代理：使用自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP 通过全面的 HTTP RESTful API 控制器进行热重载 开始You can either grab the pre-built binaries of Clash from https://github.com/Dreamacro/clash/releases or build locally.
-Clash requires Golang 1.19 or a higher version.
-1 $ go install github.com/Dreamacro/clash@latest The binary is built under $GOPATH/bin
-1 $ clash -v 将 Clash 作为服务运行Clash 应该在后台运行，目前还没有办法用 Golang 优雅地实现守护进程。我们可以使用第三方工具守护 Clash。"/>
+<meta name="twitter:description" content=""/>
 <meta name="application-name" content="Les rouages du temps pour toi s&#39;arrêtent">
 <meta name="apple-mobile-web-app-title" content="Les rouages du temps pour toi s&#39;arrêtent">
 
