@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://friedrich-top.github.io/about/</loc><lastmod>2024-01-20T11:45:14&#43;08:00</lastmod></url><url>
-            <loc>https://friedrich-top.github.io/</loc><lastmod>2024-01-20T11:45:14&#43;08:00</lastmod><xhtml:link
+            <loc>https://friedrich-top.github.io/arch-linux-speedrun/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://friedrich-top.github.io/zh-cn/"
@@ -12,8 +12,7 @@
                     hreflang="en"
                     href="https://friedrich-top.github.io/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/neofetch-cofig/</loc><lastmod>2023-10-04T22:13:12&#43;08:00</lastmod></url><url>
-            <loc>https://friedrich-top.github.io/posts/</loc><lastmod>2023-10-04T22:13:12&#43;08:00</lastmod><xhtml:link
+            <loc>https://friedrich-top.github.io/posts/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://friedrich-top.github.io/zh-cn/posts/"
@@ -22,15 +21,8 @@
                     hreflang="en"
                     href="https://friedrich-top.github.io/posts/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/arch-linux-installation-guide/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://friedrich-top.github.io/zh-cn/arch-linux-installation-guide/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://friedrich-top.github.io/arch-linux-installation-guide/"
-                    /></url><url>
+            <loc>https://friedrich-top.github.io/about/</loc><lastmod>2024-01-20T11:45:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/neofetch-cofig/</loc><lastmod>2023-10-04T22:13:12&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/</loc><lastmod>2023-08-17T12:01:09&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -77,14 +69,14 @@
                     hreflang="en"
                     href="https://friedrich-top.github.io/tags/tunnel/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/wayland-strategy-customizing-on-archlinux-based-kde-plasma/</loc><lastmod>2023-08-16T10:41:00&#43;08:00</lastmod><xhtml:link
+            <loc>https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/</loc><lastmod>2023-08-16T10:41:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://friedrich-top.github.io/zh-cn/wayland-strategy-customizing-on-archlinux-based-kde-plasma/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://friedrich-top.github.io/wayland-strategy-customizing-on-archlinux-based-kde-plasma/"
+                    href="https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/"
                     /></url><url>
             <loc>https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/</loc><lastmod>2023-08-16T10:35:20&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
@@ -114,6 +106,7 @@
                     hreflang="en"
                     href="https://friedrich-top.github.io/ideology_map/"
                     /></url><url>
+            <loc>https://friedrich-top.github.io/meme-of-yunnan-people/</loc><lastmod>2022-01-01T00:00:14&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"

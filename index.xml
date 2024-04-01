@@ -3,24 +3,24 @@
         <title>Les rouages du temps pour toi s&#39;arrêtent</title>
         <link>https://friedrich-top.github.io/</link>
         <description>Les rouages du temps pour toi s&#39;arrêtent</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 20 Jan 2024 11:45:14 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 20:50:14 &#43;0800</lastBuildDate>
             <atom:link href="https://friedrich-top.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Arch Linux Speedrun</title>
+    <link>https://friedrich-top.github.io/arch-linux-speedrun/</link>
+    <pubDate>Mon, 01 Apr 2024 20:50:14 &#43;0800</pubDate><author>
+        <name>Okurunin</name>
+    </author><guid>https://friedrich-top.github.io/arch-linux-speedrun/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Archlinux-logo-inverted-version.png" referrerpolicy="no-referrer">
+            </div>BTW I Use Arch]]></description>
+</item><item>
     <title>neofetch cofig</title>
     <link>https://friedrich-top.github.io/neofetch-cofig/</link>
     <pubDate>Wed, 04 Oct 2023 22:13:12 &#43;0800</pubDate><author>
         <name>Okurunin</name>
     </author><guid>https://friedrich-top.github.io/neofetch-cofig/</guid>
     <description><![CDATA[]]></description>
-</item><item>
-    <title>Arch Linux Installation Guide</title>
-    <link>https://friedrich-top.github.io/arch-linux-installation-guide/</link>
-    <pubDate>Fri, 18 Aug 2023 22:19:00 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/arch-linux-installation-guide/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Archlinux-logo-inverted-version.png" referrerpolicy="no-referrer">
-            </div>]]></description>
 </item><item>
     <title>DLC/extension crack module for Paradox games on Linux distros when Steam Online Check is off</title>
     <link>https://friedrich-top.github.io/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/</link>
@@ -58,11 +58,11 @@
                 <img src="images/clash.png" referrerpolicy="no-referrer">
             </div>]]></description>
 </item><item>
-    <title>Wayland strategy customizing on ArchLinux based KDE Plasma</title>
-    <link>https://friedrich-top.github.io/wayland-strategy-customizing-on-archlinux-based-kde-plasma/</link>
+    <title>KDE Plasma 6 (Wayland) customizing based Arch Linux</title>
+    <link>https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/</link>
     <pubDate>Wed, 16 Aug 2023 10:41:00 &#43;0800</pubDate><author>
         <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/wayland-strategy-customizing-on-archlinux-based-kde-plasma/</guid>
+    </author><guid>https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/KDEPlasmaWayland.png" referrerpolicy="no-referrer">
             </div>]]></description>
