@@ -3,6 +3,7 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>https://friedrich-top.github.io/arch-linux-speedrun/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/tags/gnu/linux/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -20,6 +21,15 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://friedrich-top.github.io/posts/"
+                    /></url><url>
+            <loc>https://friedrich-top.github.io/tags/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://friedrich-top.github.io/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://friedrich-top.github.io/tags/"
                     /></url><url>
             <loc>https://friedrich-top.github.io/about/</loc><lastmod>2024-01-20T11:45:14&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/neofetch-cofig/</loc><lastmod>2023-10-04T22:13:12&#43;08:00</lastmod></url><url>
@@ -43,15 +53,6 @@
                     /></url><url>
             <loc>https://friedrich-top.github.io/just-my-socks/</loc><lastmod>2023-08-17T11:29:32&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/building-clash-service-and-setting-startup/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod></url><url>
-            <loc>https://friedrich-top.github.io/tags/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://friedrich-top.github.io/zh-cn/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://friedrich-top.github.io/tags/"
-                    /></url><url>
             <loc>https://friedrich-top.github.io/tags/tunnel/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/</loc><lastmod>2023-08-16T10:41:00&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/</loc><lastmod>2023-08-16T10:35:20&#43;08:00</lastmod></url><url>
@@ -74,6 +75,7 @@
                     hreflang="en"
                     href="https://friedrich-top.github.io/ideology_map/"
                     /></url><url>
+            <loc>https://friedrich-top.github.io/tags/keyboard-politics/</loc><lastmod>2023-08-01T11:45:14&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/meme-of-yunnan-people/</loc><lastmod>2022-01-01T00:00:14&#43;08:00</lastmod></url><url>
             <loc>https://friedrich-top.github.io/categories/</loc><xhtml:link
                         rel="alternate"
