@@ -7,14 +7,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title>Arch Linux Installation Guide - 我的全新 Hugo 网站</title><meta name="Description" content=""><meta property="og:title" content="Arch Linux Installation Guide" />
-<meta property="og:description" content="安装前的准备 🧭 凡事预则立，不预则废这一章开始，我们正式开始安" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://friedrich-top.github.io/zh-cn/arch-linux-installation-guide/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-08-18T22:19:00+08:00" />
-<meta property="article:modified_time" content="2023-08-18T22:19:00+08:00" />
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Arch Linux Installation Guide"/>
-<meta name="twitter:description" content="安装前的准备 🧭 凡事预则立，不预则废这一章开始，我们正式开始安"/>
+    <title>Arch Linux Installation Guide - 我的全新 Hugo 网站</title><meta name="Description" content=""><meta property="og:url" content="https://friedrich-top.github.io/zh-cn/arch-linux-installation-guide/">
+  <meta property="og:site_name" content="我的全新 Hugo 网站">
+  <meta property="og:title" content="Arch Linux Installation Guide">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-08-18T22:19:00+08:00">
+    <meta property="article:modified_time" content="2023-08-18T22:19:00+08:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Arch Linux Installation Guide">
 <meta name="application-name" content="我的全新 Hugo 网站">
 <meta name="apple-mobile-web-app-title" content="我的全新 Hugo 网站">
 
@@ -45,7 +48,7 @@
         function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
-        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('dark' === 'light' || 'dark' === 'dark' || 'dark' === 'black') setTheme('dark'), saveTheme('dark'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
         window.switchThemeEventSet = new Set()
@@ -65,7 +68,7 @@
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">汉语<i class="fas fa-chevron-right fa-fw"></i>
-                        <select class="language-select" title="选择语言" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/arch-linux-installation-guide/" selected>汉语</option></select>
+                        <select class="language-select" title="选择语言" id="language-select-desktop" onchange="location = this.value;"><option value="/arch-linux-installation-guide/">English</option><option value="/zh-cn/arch-linux-installation-guide/" selected>汉语</option></select>
                     </a><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
@@ -130,7 +133,7 @@
                     <option value="auto">跟随系统</option>
                 </select>
             </a><a href="javascript:void(0);" class="menu-item" title="选择语言">汉语<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" title="选择语言" onchange="location = this.value;"><option value="/zh-cn/arch-linux-installation-guide/" selected>汉语</option></select>
+                    <select class="language-select" title="选择语言" onchange="location = this.value;"><option value="/arch-linux-installation-guide/">English</option><option value="/zh-cn/arch-linux-installation-guide/" selected>汉语</option></select>
                 </a></div>
     </div>
 </header>
@@ -513,7 +516,7 @@ Windows，其它系统（包括 archlinux）一律不予加载。用户不能关
         </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":100},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":null,"useExtendedSearch":null},"twemoji":true,"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js" defer></script><script type="text/javascript" src="/js/twemoji.min.js" defer></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":100},"comment":{},"data":{"desktop-header-typeit":"WDNMD'S Blog","mobile-header-typeit":"WDNMD'S Blog"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"distance":null,"findAllMatches":null,"highlightTag":"em","ignoreFieldNorm":null,"ignoreLocation":null,"isCaseSensitive":null,"location":null,"maxResultLength":10,"minMatchCharLength":null,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":null,"useExtendedSearch":null},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>
