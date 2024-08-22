@@ -2,120 +2,76 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://friedrich-top.github.io/zh-cn/arch-linux-installation-guide/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/arch-linux-installation-guide/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/zh-cn/posts/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/arch-linux-installation-guide/"
+                        href="http://localhost:1313/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/arch-linux-installation-guide/"
+                    href="http://localhost:1313/zh-cn/posts/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/posts/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/posts/"
+                        href="http://localhost:1313/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/posts/"
+                    href="http://localhost:1313/zh-cn/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/</loc><lastmod>2023-08-18T22:19:00&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/</loc><lastmod>2023-08-17T12:01:09&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/"
+                        href="http://localhost:1313/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/"
+                    href="http://localhost:1313/zh-cn/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/</loc><lastmod>2023-08-17T12:01:09&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/phigros-backup/</loc><lastmod>2023-08-17T11:45:36&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/"
+                        href="http://localhost:1313/phigros-backup-using-adb/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/"
+                    href="http://localhost:1313/zh-cn/phigros-backup/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/phigros-backup/</loc><lastmod>2023-08-17T11:45:36&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/first_post/</loc><lastmod>2023-08-15T20:02:16&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/phigros-backup-using-adb/"
+                        href="http://localhost:1313/first_post/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/phigros-backup/"
+                    href="http://localhost:1313/zh-cn/first_post/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/building-clash-service-and-setting-startup/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/ideology_map/</loc><lastmod>2023-08-01T11:45:14&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/building-clash-service-and-setting-startup/"
+                        href="http://localhost:1313/ideology_map/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/building-clash-service-and-setting-startup/"
+                    href="http://localhost:1313/zh-cn/ideology_map/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/tags/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/tags/"
+                        href="http://localhost:1313/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/tags/"
+                    href="http://localhost:1313/zh-cn/categories/"
                     /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/tags/tunnel/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod><xhtml:link
+            <loc>http://localhost:1313/zh-cn/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://friedrich-top.github.io/tags/tunnel/"
+                        href="http://localhost:1313/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/tags/tunnel/"
-                    /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/wayland-strategy-customizing-on-archlinux-based-kde-plasma/</loc><lastmod>2023-08-16T10:41:00&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/wayland-strategy-customizing-on-archlinux-based-kde-plasma/"
-                    /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/guide-for-kenvyra-running-on-cupidxiaomi12/</loc><lastmod>2023-08-16T10:35:20&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/guide-for-kenvyra-running-on-cupidxiaomi12/"
-                    /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/first_post/</loc><lastmod>2023-08-15T20:02:16&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://friedrich-top.github.io/first_post/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/first_post/"
-                    /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/ideology_map/</loc><lastmod>2023-08-01T11:45:14&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://friedrich-top.github.io/ideology_map/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/ideology_map/"
-                    /></url><url>
-            <loc>https://friedrich-top.github.io/zh-cn/categories/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://friedrich-top.github.io/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://friedrich-top.github.io/zh-cn/categories/"
+                    href="http://localhost:1313/zh-cn/tags/"
                     /></url></urlset>

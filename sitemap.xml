@@ -1,18 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://friedrich-top.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2024-04-02T16:48:00+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://friedrich-top.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2023-08-18T22:19:00+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://friedrich-top.github.io/</loc><lastmod>2024-07-31T22:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/posts/</loc><lastmod>2024-07-31T22:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/%E8%81%AF%E6%83%B3%E5%B0%8F%E6%96%B0-pro14ideapad-pro5-14aph8/</loc><lastmod>2024-07-31T22:00:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/dwm/</loc><lastmod>2024-04-02T16:48:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/tags/gnu/linux/</loc><lastmod>2024-04-02T16:48:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/tags/</loc><lastmod>2024-04-02T16:48:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/arch-linux-speedrun/</loc><lastmod>2024-04-01T20:50:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/about/</loc><lastmod>2024-01-20T11:45:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/neofetch-cofig/</loc><lastmod>2023-10-04T22:13:12&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/dlc/extension-crack-module-for-paradox-games-on-linux-distros-when-steam-online-check-is-off/</loc><lastmod>2023-08-17T12:01:09&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/phigros-backup-using-adb/</loc><lastmod>2023-08-17T11:45:36&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/just-my-socks/</loc><lastmod>2023-08-17T11:29:32&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/building-clash-service-and-setting-startup/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/tags/tunnel/</loc><lastmod>2023-08-16T12:05:37&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/</loc><lastmod>2023-08-16T10:41:00&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/</loc><lastmod>2023-08-16T10:35:20&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/first_post/</loc><lastmod>2023-08-15T20:02:16&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/test/</loc><lastmod>2023-08-15T20:01:45&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/ideology_map/</loc><lastmod>2023-08-01T11:45:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/tags/keyboard-politics/</loc><lastmod>2023-08-01T11:45:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/meme-of-yunnan-people/</loc><lastmod>2022-01-01T00:00:14&#43;08:00</lastmod></url><url>
+            <loc>https://friedrich-top.github.io/categories/</loc></url></urlset>
