@@ -3,7 +3,16 @@
         <title>All Posts - Les rouages du temps pour toi s&#39;arrêtent</title>
         <link>https://friedrich-top.github.io/posts/</link>
         <description>All Posts | Les rouages du temps pour toi s&#39;arrêtent</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 31 Jul 2024 22:00:00 &#43;0800</lastBuildDate><atom:link href="https://friedrich-top.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Aug 2024 21:00:00 &#43;0800</lastBuildDate><atom:link href="https://friedrich-top.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hyprland</title>
+    <link>https://friedrich-top.github.io/hyprland/</link>
+    <pubDate>Thu, 01 Aug 2024 21:00:00 &#43;0800</pubDate><author>
+        <name>Okurunin</name>
+    </author><guid>https://friedrich-top.github.io/hyprland/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hyprland.png" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item><item>
     <title>聯想小新 Pro14（Ideapad Pro5 14APH8）</title>
     <link>https://friedrich-top.github.io/%E8%81%AF%E6%83%B3%E5%B0%8F%E6%96%B0-pro14ideapad-pro5-14aph8/</link>
     <pubDate>Wed, 31 Jul 2024 22:00:00 &#43;0800</pubDate><author>
@@ -83,15 +92,6 @@
     </author><guid>https://friedrich-top.github.io/kde-plasma-6-wayland-customizing-based-arch-linux/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/KDEPlasmaWayland.png" referrerpolicy="no-referrer">
-            </div>]]></description>
-</item><item>
-    <title>Guide for Kenvyra running on Cupid(xiaomi12)</title>
-    <link>https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/</link>
-    <pubDate>Wed, 16 Aug 2023 10:35:20 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/guide-for-kenvyra-running-on-cupidxiaomi12/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/kenvyra_preview.png" referrerpolicy="no-referrer">
             </div>]]></description>
 </item></channel>
 </rss>
