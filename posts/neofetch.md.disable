@@ -1,0 +1,75 @@
+---
+title: "neofetch cofig"
+date: 2023-10-04T22:13:12+08:00
+#featuredImage: "/images/tno-memes.avif"
+featuredImagePreview: "/images/tno-memes.avif"
+#slug: "neofetch"
+summary: " "
+---
+
+<!--more-->
+
+## .zshrc
+
+`
+alias burgundyos='neofetch --config /home/user/Documents/txt/config.conf  --source /home/user/Documents/txt/ASCII.txt'
+`
+
+## config.conf
+
+```
+print_info() {
+  3     info title
+  4     info underline
+  5 
+  6     distro="Burgunder Linux x86\_64"
+  7 
+  8     info "$(color 5)Betriebssystem" distro
+  9     info "$(color 5)Host" model
+ 10     info "$(color 5)Kernel" kernel
+ 11     info "$(color 5)Uptime" uptime
+ 12     info "$(color 5)Pakete" packages
+ 13     info "$(color 5)Shell" shell
+ 14     info "$(color 5)Auflösung" resolution
+ 15     info "$(color 5)DU" de
+ 16     info "$(color 5)WM" wm
+ 17     info "$(color 5)WM Thema" wm_theme
+ 18     info "$(color 5)Thema" theme
+ 19     info "$(color 5)Ikon" icons
+ 20     info "$(color 5)Terminal" term
+ 21     info "$(color 5)Terminal Font" term_font
+ 22     info "$(color 5)CPU" cpu
+ 23     info "$(color 5)GPU" gpu
+
+```
+
+## ASCII.txt
+
+```
+               'c' .KKXKKOkoc'
+           ;xXMMMo .MMMMMMMMMMMNx;
+        ,kMMMMMMMo .MMMMMNMMMMMMMMMk,
+      ,KMMMMMMKo,  .MMMMM. .,oKMMMMMMX;
+    .OMMMMMNl.     .MMMMM.     .cXMMMMM0.
+   .NMMMMW:        .MMMMM.        :NMMMMN.
+  .WMMMM0          .MMMMM.          0MMMMW.
+  XMMMM0           .MMMMM.           0MMMMX
+ :MMMMM.           .MMMMM.
+ kMMMMWKKKKKKKKKKKKKMMMMMXKKKKKKKKKKKKKKKKKd
+ 0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK
+ dKKKKKKKKKKKKKKKKKKMMMMMKKKKKKKKKKKKKWMMMMO
+                   .MMMMM.           .WMMMM:
+  XMMMM0           .MMMMM.           0MMMMX
+  .WMMMM0.         .MMMMM.          0MMMMW.
+   .NMMMMWc        .MMMMM.        :NMMMMN.
+     OMMMMMNl.     .MMMMM.     .lNMMMMMO.
+      ,KMMMMMMKo;. .MMMMM.  ,oKMMMMMMX;
+        ,kWMMMMMMMMNMMMMM. lMMMMMMWk,
+           ;xXMMMMMMMMMMM. lMMMXx;
+               ':oxO0KKK0. ':'
+```
+
+## Enjoy by 'burgundyos'
+
+![avatar](/images/hml.jpg)
+
