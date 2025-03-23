@@ -1,16 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</title>
-        <link>https://friedrich-top.github.io/tags/tunnel/</link>
-        <description>Tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Aug 2023 12:05:37 &#43;0800</lastBuildDate><atom:link href="https://friedrich-top.github.io/tags/tunnel/" rel="self" type="application/rss+xml" /><item>
-    <title>Config clash-meta/mihomo on Arch Linux</title>
-    <link>https://friedrich-top.github.io/posts/clash/</link>
-    <pubDate>Wed, 16 Aug 2023 12:05:37 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/posts/clash/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="images/clash.png" referrerpolicy="no-referrer">
-            </div>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tunnel - Tag - Les rouages du temps pour toi s&#39;arrêtent</title>
+    <link>https://friedrich-top.github.io/tags/tunnel/</link>
+    <description>Les rouages du temps pour toi s&#39;arrêtent</description>
+    <generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8b402129</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Aug 2023 12:05:37 +0800</lastBuildDate>
+    <atom:link href="https://friedrich-top.github.io/tags/tunnel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Config clash-meta/mihomo on Arch Linux</title>
+      <link>https://friedrich-top.github.io/posts/clash/</link>
+      <pubDate>Wed, 16 Aug 2023 12:05:37 +0800</pubDate>
+      <guid>https://friedrich-top.github.io/posts/clash/</guid>
+      <description>Config clash-meta/mihomo on Arch Linux</description>
+    </item>
+  </channel>
 </rss>

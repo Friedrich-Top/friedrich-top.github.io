@@ -1,43 +1,40 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>GNU/Linux - Tag - Les rouages du temps pour toi s&#39;arrêtent</title>
-        <link>https://friedrich-top.github.io/tags/gnu/linux/</link>
-        <description>GNU/Linux - Tag - Les rouages du temps pour toi s&#39;arrêtent</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Aug 2024 21:00:00 &#43;0800</lastBuildDate><atom:link href="https://friedrich-top.github.io/tags/gnu/linux/" rel="self" type="application/rss+xml" /><item>
-    <title>Hyprland</title>
-    <link>https://friedrich-top.github.io/posts/hyprland/</link>
-    <pubDate>Thu, 01 Aug 2024 21:00:00 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/posts/hyprland/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/hyprland.webp" referrerpolicy="no-referrer">
-            </div>]]></description>
-</item><item>
-    <title>Ideapad Pro5 14APH8</title>
-    <link>https://friedrich-top.github.io/posts/ideapad_pro_5_14aph8/</link>
-    <pubDate>Wed, 31 Jul 2024 22:00:00 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/posts/ideapad_pro_5_14aph8/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/lenovo-ideapad-5-pro-amd-14inch-02.png" referrerpolicy="no-referrer">
-            </div>總之就是感謝德佬]]></description>
-</item><item>
-    <title>Dwm</title>
-    <link>https://friedrich-top.github.io/posts/dwm/</link>
-    <pubDate>Tue, 02 Apr 2024 16:48:00 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/posts/dwm/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/dwm-20100318.png" referrerpolicy="no-referrer">
-            </div>Rice suckless]]></description>
-</item><item>
-    <title>Arch Linux Speedrun</title>
-    <link>https://friedrich-top.github.io/posts/arch_linux_speedrun/</link>
-    <pubDate>Mon, 01 Apr 2024 20:50:14 &#43;0800</pubDate><author>
-        <name>Okurunin</name>
-    </author><guid>https://friedrich-top.github.io/posts/arch_linux_speedrun/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Archlinux-logo-inverted-version.png" referrerpolicy="no-referrer">
-            </div>BTW I Use Arch]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNU/Linux - Tag - Les rouages du temps pour toi s&#39;arrêtent</title>
+    <link>https://friedrich-top.github.io/tags/gnu/linux/</link>
+    <description>Les rouages du temps pour toi s&#39;arrêtent</description>
+    <generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8b402129</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Aug 2024 21:00:00 +0800</lastBuildDate>
+    <atom:link href="https://friedrich-top.github.io/tags/gnu/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyprland</title>
+      <link>https://friedrich-top.github.io/posts/hyprland/</link>
+      <pubDate>Thu, 01 Aug 2024 21:00:00 +0800</pubDate>
+      <guid>https://friedrich-top.github.io/posts/hyprland/</guid>
+      <description>ハイパー</description>
+    </item>
+    <item>
+      <title>Ideapad Pro5 14APH8</title>
+      <link>https://friedrich-top.github.io/posts/ideapad_pro_5_14aph8/</link>
+      <pubDate>Wed, 31 Jul 2024 22:00:00 +0800</pubDate>
+      <guid>https://friedrich-top.github.io/posts/ideapad_pro_5_14aph8/</guid>
+      <description>總之就是感謝德佬</description>
+    </item>
+    <item>
+      <title>Dwm</title>
+      <link>https://friedrich-top.github.io/posts/dwm/</link>
+      <pubDate>Tue, 02 Apr 2024 16:48:00 +0800</pubDate>
+      <guid>https://friedrich-top.github.io/posts/dwm/</guid>
+      <description>Rice suckless</description>
+    </item>
+    <item>
+      <title>Arch Linux Speedrun</title>
+      <link>https://friedrich-top.github.io/posts/arch_linux_speedrun/</link>
+      <pubDate>Mon, 01 Apr 2024 20:50:14 +0800</pubDate>
+      <guid>https://friedrich-top.github.io/posts/arch_linux_speedrun/</guid>
+      <description>BTW I Use Arch</description>
+    </item>
+  </channel>
 </rss>
